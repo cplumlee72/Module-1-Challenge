@@ -24,11 +24,12 @@ body {
     color: #d9dcd6;
 }
 
+/* fixed all the missing apostrophe's on the Calibri items under font family attribues. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -60,7 +61,7 @@ p {
 }
       /*                                                                         
        ** 
-       Moved everything nested within the content class to directly under it
+       Moved everything nested within the .content class to directly under it
        in order to find things easier.
        ** 
        */
@@ -81,35 +82,21 @@ p {
     margin-left: 25px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* remove unneccessary selectors so that they only used the img selector for everything under 
+/* removed unneccessary class attributes for the content tiles so that they only used 
+the content-tiles class for everything under 
 "content" */
+
+.content-tiles {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* removed unneccessary classes for each image under the content class division
+ so that they only used the img selector for everything under "content" */
 
 .content img {
     max-height: 200px;
@@ -135,49 +122,24 @@ h2 {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*removed each selector for individual benefit divisions, and rolled them all into one */
+
+.benefit-div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/*removed each selector for individual benefit header 3's, and rolled them all into one */
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+/*removed each selector for individual benefit division images, and rolled them all into one */
+.benefit-div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -190,6 +152,7 @@ h2 {
     text-align: center;
 }
 
+/* this stil has a footer h2 selector since it's a different font size than all the other h2's */ 
 .footer h2 {
     font-size: 20px;
 }
