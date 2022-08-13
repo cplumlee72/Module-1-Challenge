@@ -12,7 +12,7 @@
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
-            <nav> <!-- added <nav> tag for accessability-->
+            <nav> <!-- added <nav> tag for accessibility-->
                 <ul> <!-- <ul> and links are semantic, therefore <div> is not used here-->
                     <li>
                      <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -29,10 +29,12 @@
     </header>
 
     <div class="hero"></div>
-    <main> <!-- Added main to sepearate from header and footer -->
+
+    <main> <!-- Added main to sepearate from header and footer for future change readability -->
     <div class="content">
-        <!-- Removed the uneccessry id attributes from the below divisions, changed classs attributes to content-tiles in order to remove the extra code from the stylesheet. -->
-        <div class="content-tiles">
+        <!-- Removed the uneccessry id attributes from the below divisions, changed classs attributes to content dib in order to remove the extra code from the stylesheet. -->
+        <!-- gave each division it's own id for future change readability -->
+        <div id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="image of a journal on a desk with SEO methods such as content, backlink, heading, link building, mobile compatibility, and social media." class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -40,7 +42,7 @@
             </p>
         </div>
 
-        <div class="content-tiles">
+        <div id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" alt="Image of a man sitting in front of a laptop at a desk with a graphs visualizing his repuatation." class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -48,7 +50,7 @@
             </p>
         </div>
 
-        <div class="content-tiles">
+        <div id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" alt="Image of six people sitting at a table with various words pertaining to social media such as tweet, media, share, and like." class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -58,8 +60,9 @@
 
     </div>
 <!-- changed 2nd nested <div>'s into one type of devision since they all had the same rules. -->
+     <!-- gave each division it's own id for future change readability -->
     <div class="benefits">
-        <div class="benefit-div">
+        <div id="lead-generation">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="image of a gear dropping into a funnel and turning into a coin with a dollar sign." />
             <p>
@@ -67,7 +70,7 @@
             </p>
         </div>
 
-        <div class="benefit-div">
+        <div id="brand-awareness">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="Image of a humanoid figure with a lightbulb for a head emitting light." />
             <p>
@@ -75,7 +78,7 @@
             </p>
         </div>
         
-        <div class="benefit-div">
+        <div id="cost-management">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="Image of 3 coins in front of a gear." ></img>
             <p>
@@ -84,7 +87,7 @@
         </div>    
     </div>
     </main>
-<!-- changed <div class="footer"> to an actual footer for accessability.-->
+<!-- changed <div class="footer"> to an actual footer for accessibility.-->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
