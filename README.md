@@ -13,5 +13,6 @@ This was a project designed to enhance and simplify the code of Horiseon's main 
 ![image of correct url](/assets/images/READMEss.PNG)
 
 ## Credits
+
 -https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 -https://coding-boot-camp.github.io/full-stack/html/html-cheatsheet
