@@ -108,29 +108,17 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* remove unneccessary selectors so that they only used the img selector for everything under 
+"content" */
+
+.content img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-.social-media-marketing img {
-    max-height: 200px;
-}
+/* removed unneccessary h2's from id's in "content" class */
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
