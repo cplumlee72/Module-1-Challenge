@@ -8,11 +8,13 @@ This was a project designed to enhance and simplify the code of Horiseon's main 
 ## Usage
 
 -Open a browser. Navigate to [cplumlee72.github.io](https://cplumlee72.github.io) 
+
 -Click on the links in the navbar to jump to a specific section on the page. 
 
-![image of correct url](/assets/images/READMEss.PNG)
+![image of website landing page](/assets/images/READMEss.PNG)
 
 ## Credits
 
 -https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+
 -https://coding-boot-camp.github.io/full-stack/html/html-cheatsheet
